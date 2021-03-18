@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA-Calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="containter">
+        
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Course</th>
+                    <th scope="col">Credit Hours</th>
+                    <th scope="col">Grade Point</th>
+                </tr>
+
+                <tr>
+                    <td>Mechanics and Wave Motion (Theory)</td>
+                    <td>3</td>
+                    <td><input type="text" class="input" id="mechT"></td>
+                </tr>
+
+                <tr>
+                    <td>Introduction to Computing (Theory)</td>
+                    <td>3</td>
+                    <td><input type="text" class="input" id="itcT"></td>
+                </tr>
+
+                <tr>
+                    <td>Theromodynamics (Theory)</td>
+                    <td>2</td>
+                    <td><input type="text" class="input" id="thermoT"></td>
+                </tr>
+
+                <tr>
+                    <td>Calculus</td>
+                    <td>3</td>
+                    <td><input type="text" class="input" id="calc"></td>
+                </tr>
+
+                <tr>
+                    <td>Islamiat and Pakstudy</td>
+                    <td>3</td>
+                    <td><input type="text" class="input" id="isl"></td>
+                </tr>
+
+                <tr>
+                    <td>Mechanics and Wave Motion (Lab)</td>
+                    <td>1</td>
+                    <td><input type="text" class="input" id="mechL"></td>
+                </tr>
+
+                <tr>
+                    <td>Introduction to Computing (Lab)</td>
+                    <td>1</td>
+                    <td><input type="text" class="input" id="itcL"></td>
+                </tr>
+
+                <tr>
+                    <td>Theromodynamics (Lab)</td>
+                    <td>1</td>
+                    <td><input type="text" class="input" id="thermoL"></td>
+                </tr>
+
+                <tr>
+                    <td>Communication Skills</td>
+                    <td>1</td>
+                    <td><input type="text" class="input" id="cs"></td>
+                </tr>
+
+            </thead>
+        </table>
+        <button class="btn btn-info" onclick="main()">click</button>
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</html>
