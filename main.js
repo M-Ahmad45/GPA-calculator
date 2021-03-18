@@ -27,7 +27,7 @@ function main(){
     grade_point[course]= parseFloat( input[i].value);
     }
     var gpa = getGPA(grade_point);
-    console.log(gpa);
-    //console.log(JSON.parse(JSON.stringify(courses)));
+    var s = document.getElementById("gp");
+    s.innerHTML = gpa;
 
 }
